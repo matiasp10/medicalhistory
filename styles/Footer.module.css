@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c3e0f3;
+  height: 150px;
+}
+
+.content {
+  display: flex;
+  margin-left: 20px;
+}
+
+.firstName {
+  display: flex;
+  color: #3943b7;
+  font-size: 24px;
+  margin-right: 6px;
+}
+
+.lastName {
+  display: flex;
+  color: #4b3cfe;
+  font-size: 24px;
+}
+
+.copyright {
+  color: #565857;
+  margin-right: 20px;
+}

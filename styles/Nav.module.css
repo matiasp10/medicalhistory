@@ -1,0 +1,59 @@
+.container {
+  width: 300px;
+  height: 95vh;
+  display: flex;
+  background-color: #fff;
+  margin: 10px;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.firstName {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.lastName {
+  font-weight: 400;
+  font-size: 20px;
+  color: #422afb;
+}
+
+.divisor {
+  display: flex;
+  height: 1px;
+  width: 100%;
+  background: rgba(135, 140, 189, 0.3);
+  margin-bottom: 20px;
+}
+
+.linksContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.link a {
+  margin-left: 10px;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link a:visited {
+  color: #000;
+}

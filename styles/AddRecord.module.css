@@ -1,0 +1,12 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: tomato;
+}
+
+.input {
+  width: 250px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
+}

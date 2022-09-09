@@ -1,0 +1,46 @@
+.container {
+  width: 100%;
+}
+
+.turnosContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  color: #1b254b;
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.table {
+  width: 100%;
+}
+
+.thead th {
+  color: #b6c1cf;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.paciente {
+  width: 50%;
+}
+
+.turno {
+  width: 25%;
+}
+
+.mutual {
+  width: 25%;
+}
+
+.thead th,
+.tbody td {
+  border-bottom: 0.5px solid #b6c1cf;
+  padding: 10px;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 500;
+}

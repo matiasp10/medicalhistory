@@ -1,0 +1,105 @@
+.contentContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b1dae7;
+}
+
+.leftContainer {
+  margin: 90px 120px;
+}
+
+.logoLogin {
+  display: flex;
+}
+
+.loginTitle {
+  margin-top: 75px;
+  color: #361793;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.firstName {
+  color: #3943b7;
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.lastName {
+  color: #4b3cfe;
+  font-size: 16px;
+}
+
+.loginContainer {
+  width: 600px;
+  background-color: #ffffff;
+  height: 700px;
+}
+
+.loginForm {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  margin-top: 5px;
+  padding-left: 10px;
+  height: 30px;
+  border: 1px solid #d2d1d1;
+  border-radius: 80px;
+}
+
+.loginPassword {
+  margin-top: 8px;
+}
+
+.loginButton {
+  margin-top: 30px;
+  font-size: 17px;
+  padding: 0.5em 2em;
+  border: transparent;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  background: dodgerblue;
+  color: white;
+  border-radius: 4px;
+}
+
+.loginButton:hover {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 144, 255, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.loginButton:active {
+  transform: translate(0em, 0.2em);
+}
+
+.boxCopyright {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 200px;
+  margin-right: 150px;
+}
+
+.loginCopyright {
+  font-size: 10px;
+  color: #565857;
+}
+
+.imgContainer {
+  width: 600px;
+  background-color: tomato;
+  height: 700px;
+}
+
+.img {
+  width: 600px;
+  height: 700px;
+}
