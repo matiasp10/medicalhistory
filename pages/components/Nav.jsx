@@ -2,6 +2,8 @@ import style from '../../styles/Nav.module.css';
 import Calendar from './Calendar';
 import HomeIcon from './HomeIcon';
 import Users from './Users';
+import Link from 'next/link';
+
 export default function Nav() {
   return (
     <nav className={style.container}>
@@ -13,15 +15,15 @@ export default function Nav() {
       <div className={style.linksContainer}>
         <div className={style.link}>
           <HomeIcon />
-          <a href="" className={style.links}>
-            Inicio
-          </a>
+          <Link href="/">
+            <a className={style.links}>Inicio</a>
+          </Link>
         </div>
         <div className={style.link}>
           <Users />
-          <a href="" className={style.links}>
-            Pacientes
-          </a>
+          <Link href="/Pacientes">
+            <a className={style.links}>Pacientes</a>
+          </Link>
         </div>
         <div className={style.link}>
           <Calendar />

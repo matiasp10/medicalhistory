@@ -9,12 +9,8 @@ function Dashboard() {
     <div className={style.main}>
       <Nav />
       <div className={style.container}>
-        <div>
-          <Turnos />
-        </div>
-        <div>
-          <ListaPacientes />
-        </div>
+        <Turnos />
+        <ListaPacientes />
       </div>
     </div>
   );

@@ -1,0 +1,27 @@
+.title {
+  color: #1b254b;
+  font-size: 35px;
+  margin: 25px 0;
+  font-weight: 700;
+}
+
+.infoContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.info {
+  padding-right: 80px;
+  padding-bottom: 15px;
+}
+
+.infoHolder {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.infoText {
+  padding-left: 5px;
+  font-size: 20px;
+}
