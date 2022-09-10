@@ -9,32 +9,32 @@ function ListaPacientes() {
     {
       name: 'Jorge',
       mutual: 'Mutual Medica',
-      link: '',
+      link: '/pacientes/65874',
     },
     {
       name: 'Jose',
       mutual: 'Mutual Medica',
-      link: '',
+      link: '/pacientes/234235',
     },
     {
       name: 'Pepe',
       mutual: 'Mutual Medica',
-      link: '',
+      link: '/pacientes/6576745',
     },
     {
       name: 'Roman',
       mutual: 'Mutual Medica',
-      link: '',
+      link: '/pacientes/65874554',
     },
     {
       name: 'Gerardo',
       mutual: 'Mutual Medica',
-      link: '',
+      link: '/pacientes/999999',
     },
     {
       name: 'Luis',
       mutual: 'Mutual Medica',
-      link: '',
+      link: '/pacientes/11111',
     },
   ];
   const filtrado = pacientes.filter((paciente) => {

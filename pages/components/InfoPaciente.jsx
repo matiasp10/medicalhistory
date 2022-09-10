@@ -1,7 +1,8 @@
 import React from 'react';
 import style from '../../styles/InfoPaciente.module.css';
 
-function InfoPaciente() {
+function InfoPaciente(props) {
+  const { dni } = props;
   return (
     <div className={style.container}>
       <span className={style.title}>Información de pacientes</span>
@@ -20,7 +21,7 @@ function InfoPaciente() {
         </div>
         <div className={style.info}>
           <span className={style.infoHolder}>DNI:</span>
-          <span className={style.infoText}>3953455</span>
+          <span className={style.infoText}>{dni}</span>
         </div>
         <div className={style.info}>
           <span className={style.infoHolder}>Domicilio:</span>

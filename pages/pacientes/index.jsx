@@ -1,6 +1,6 @@
-import style from '../styles/Pacientes.module.css';
-import Nav from './components/Nav';
-import ListaPacientes from './components/ListaPacientes';
+import style from '../../styles/Pacientes.module.css';
+import Nav from '../components/Nav';
+import ListaPacientes from '../components/ListaPacientes';
 function Pacientes() {
   return (
     <div className={style.main}>

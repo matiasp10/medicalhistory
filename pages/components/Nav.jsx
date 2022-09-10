@@ -21,7 +21,7 @@ export default function Nav() {
         </div>
         <div className={style.link}>
           <Users />
-          <Link href="/Pacientes">
+          <Link href="/pacientes">
             <a className={style.links}>Pacientes</a>
           </Link>
         </div>
